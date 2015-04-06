@@ -1,0 +1,17 @@
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\Bin\Debug\SpatialQuery.AddIns.dll
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\Bin\Debug\SpatialQuery.AddIns.pdb
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\Bin\Debug\AppManifest.xaml
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\Bin\Debug\SpatialQuery.AddIns.xap
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\Bin\Debug\SpatialQueryCommandTestPage.html
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\obj\Debug\SpatialLineQuery.AddIns.csprojResolveAssemblyReference.cache
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\obj\Debug\SpatialQuery.AddIns.dll
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\obj\Debug\SpatialQuery.AddIns.pdb
+C:\TEMP\SpatialQueryLine\SpatialQuery\SpatialQuery.AddIns\obj\Debug\XapCacheFile.xml
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\Bin\Debug\SpatialLineQuery.AddIns.dll
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\Bin\Debug\SpatialLineQuery.AddIns.pdb
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\Bin\Debug\AppManifest.xaml
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\Bin\Debug\SpatialLineQuery.AddIns.xap
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\Bin\Debug\SpatialQueryCommandTestPage.html
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\obj\Debug\SpatialLineQuery.AddIns.dll
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\obj\Debug\SpatialLineQuery.AddIns.pdb
+C:\TEMP\SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.AddIns\obj\Debug\XapCacheFile.xml

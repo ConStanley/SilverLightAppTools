@@ -1,0 +1,61 @@
+﻿<esri:Map
+	 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	 xmlns:sys="clr-namespace:System;assembly=mscorlib"
+	 xmlns:esri="http://schemas.esri.com/arcgis/client/2009"
+	 xmlns:esriBing="clr-namespace:ESRI.ArcGIS.Client.Bing;assembly=ESRI.ArcGIS.Client.Bing"
+	 xmlns:esriMapping="http://schemas.esri.com/arcgis/mapping/2009"
+	 xmlns:esriExtensibility="http://schemas.esri.com/arcgis/client/extensibility/2010"
+	 xmlns:esriFSSymbols="clr-namespace:ESRI.ArcGIS.Client.FeatureService.Symbols;assembly=ESRI.ArcGIS.Client"
+	 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<esriMapping:ScaleBarExtensions.ScaleBarMapUnit>Meters</esriMapping:ScaleBarExtensions.ScaleBarMapUnit>
+	<esri:Map.IsLogoVisible>False</esri:Map.IsLogoVisible>
+	<esri:Map.Extent>
+		<esri:Envelope XMin="-14394833.4986819" XMax="-7046771.8387522" YMin="2022888.88334798" YMax="7435447.1223638">
+			<esri:Envelope.SpatialReference>
+				<esri:SpatialReference WKID="102100" />
+			</esri:Envelope.SpatialReference>
+		</esri:Envelope>
+	</esri:Map.Extent>
+	<esri:ArcGISTiledMapServiceLayer ID="Topographic" Url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" MinimumResolution="0">
+		<esriExtensibility:Document.IsBaseMap>true</esriExtensibility:Document.IsBaseMap>
+		<esriMapping:LayerExtensions.LayerName>Imagery</esriMapping:LayerExtensions.LayerName>
+		<esriMapping:LayerExtensions.LayerInfos />
+		<esriExtensibility:LayerProperties.IsPopupEnabled>true</esriExtensibility:LayerProperties.IsPopupEnabled>
+		<esriExtensibility:LayerProperties.IsVisibleInMapContents>true</esriExtensibility:LayerProperties.IsVisibleInMapContents>
+	</esri:ArcGISTiledMapServiceLayer>
+	<esri:FeatureLayer ID="e94a6cffbab24d8195102f00dab0a71c" RendererTakesPrecedence="True" Url="http://serverapps10.esri.com/arcgis/rest/services/USA/MapServer/2" Mode="OnDemand" OutFields="*">
+		<esriMapping:LayerExtensions.LayerName>States</esriMapping:LayerExtensions.LayerName>
+		<esriMapping:LayerExtensions.DisplayUrl>http://serverapps10.esri.com/arcgis/rest/services/USA/MapServer/2</esriMapping:LayerExtensions.DisplayUrl>
+		<esriMapping:LayerExtensions.LayerInfos />
+		<esriExtensibility:LayerProperties.IsPopupEnabled>true</esriExtensibility:LayerProperties.IsPopupEnabled>
+		<esriExtensibility:LayerProperties.IsVisibleInMapContents>true</esriExtensibility:LayerProperties.IsVisibleInMapContents>
+		<esriMapping:LayerExtensions.GeometryType>Polygon</esriMapping:LayerExtensions.GeometryType>
+		<esriMapping:LayerExtensions.GradientBrush>
+			<LinearGradientBrush>
+				<GradientStop Color="#FF090991" Offset="0" />
+				<GradientStop Color="#FFB6EDF0" Offset="1" />
+			</LinearGradientBrush>
+		</esriMapping:LayerExtensions.GradientBrush>
+		<esriMapping:LayerExtensions.Fields>
+			<esriMapping:FieldInfo Name="AREA" DisplayName="AREA" FieldType="DecimalNumber" AliasOnServer="AREA" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="STATE_NAME" DisplayName="STATE_NAME" AliasOnServer="STATE_NAME" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="SUB_REGION" DisplayName="SUB_REGION" AliasOnServer="SUB_REGION" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="STATE_ABBR" DisplayName="STATE_ABBR" AliasOnServer="STATE_ABBR" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="POP2000" DisplayName="POP2000" FieldType="Integer" AliasOnServer="POP2000" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="POP00_SQMI" DisplayName="POP00_SQMI" FieldType="Integer" AliasOnServer="POP00_SQMI" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="Shape_Length" DisplayName="Shape_Length" FieldType="DecimalNumber" AliasOnServer="Shape_Length" DomainSubtypeLookup="None" />
+			<esriMapping:FieldInfo Name="Shape_Area" DisplayName="Shape_Area" FieldType="DecimalNumber" AliasOnServer="Shape_Area" DomainSubtypeLookup="None" />
+		</esriMapping:LayerExtensions.Fields>
+		<esriMapping:LayerExtensions.DisplayField>STATE_NAME</esriMapping:LayerExtensions.DisplayField>
+		<esriMapping:LayerExtensions.PopUpsOnClick>True</esriMapping:LayerExtensions.PopUpsOnClick>
+		<esri:GraphicsLayer.Renderer>
+			<esri:SimpleRenderer>
+				<esri:SimpleRenderer.Symbol>
+					<esriFSSymbols:SimpleFillSymbol>
+						<esriMapping:SymbolExtensions.Json>{"type":"esriSFS","style":"esriSFSSolid","color":[0,0,0,0],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[255,255,255,255],"width":1}}</esriMapping:SymbolExtensions.Json>
+					</esriFSSymbols:SimpleFillSymbol>
+				</esri:SimpleRenderer.Symbol>
+			</esri:SimpleRenderer>
+		</esri:GraphicsLayer.Renderer>
+	</esri:FeatureLayer>
+</esri:Map>

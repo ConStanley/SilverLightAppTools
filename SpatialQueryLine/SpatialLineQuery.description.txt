@@ -1,0 +1,4 @@
+This sample demonstrates querying a selected layer based on a user-drawn geometry.  To use the sample:
+	1.) Click the Spatial Query button on the main toolbar.
+	2.) Click and drag a line on the map.  After a few moments, states, parcels, etc that intersect the line will be added to the map and Map Content window.
+	3)  The XAP is in "SpatialQueryLine\SpatialLineQuery\SpatialLineQuery.Web\Extensions".

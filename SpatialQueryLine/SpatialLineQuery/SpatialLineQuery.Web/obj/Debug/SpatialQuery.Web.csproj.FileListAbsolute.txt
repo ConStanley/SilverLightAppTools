@@ -1,0 +1,6 @@
+C:\TEMP\SpatialQuery\Bin\Viewer.dll.config
+C:\TEMP\SpatialQuery\Bin\Viewer.dll
+C:\TEMP\SpatialQuery\Bin\Viewer.pdb
+C:\TEMP\SpatialQuery\SpatialQuery\SpatialQuery.Web\obj\Debug\SpatialQuery.Web.csprojResolveAssemblyReference.cache
+C:\TEMP\SpatialQuery\SpatialQuery\SpatialQuery.Web\obj\Debug\Viewer.dll
+C:\TEMP\SpatialQuery\SpatialQuery\SpatialQuery.Web\obj\Debug\Viewer.pdb

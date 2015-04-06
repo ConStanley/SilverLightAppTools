@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpatialLineQuery.AddIns", "SpatialLineQuery\SpatialLineQuery.AddIns\SpatialLineQuery.AddIns.csproj", "{6A525A2E-5C69-4C37-8C82-90B4E2E2317A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpatialLineQuery.Web", "SpatialLineQuery\SpatialLineQuery.Web\SpatialLineQuery.Web.csproj", "{82DC44AB-64B9-4368-AE16-DCCB487D4B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A525A2E-5C69-4C37-8C82-90B4E2E2317A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A525A2E-5C69-4C37-8C82-90B4E2E2317A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A525A2E-5C69-4C37-8C82-90B4E2E2317A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A525A2E-5C69-4C37-8C82-90B4E2E2317A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DC44AB-64B9-4368-AE16-DCCB487D4B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DC44AB-64B9-4368-AE16-DCCB487D4B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DC44AB-64B9-4368-AE16-DCCB487D4B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DC44AB-64B9-4368-AE16-DCCB487D4B09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
