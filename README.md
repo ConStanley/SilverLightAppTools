@@ -1,2 +1,2 @@
 # SilverLightAppTools
-repo for tools ripped or built for use in SL viewer
+repo for tools stripped or built for use in SL viewer
